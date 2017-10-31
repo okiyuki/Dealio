@@ -17,7 +17,7 @@ div {
 
 .title {
 	margin-left=0;
-	background-color: #333;
+	background-color: lightskyblue;
 	overflow: hidden;
 	position: relative;
 	top: 0;
@@ -28,7 +28,7 @@ div {
 .title h1 {
 	text-align:center;
 	display: block;
-	color: paleturquoise;
+	color: black;
 	padding: 14px 15px;
 	text-decoration: none;
 }
@@ -60,7 +60,8 @@ div {
 	text-decoration: none;
 	font-size: 17px;
 	width: 95%;
-    border: 25px solid paleturquoise;
+    border: 25px solid bisque;
+    background-color: bisque;
 	margin: 25px;
     box-sizing: border-box;
 }
@@ -83,7 +84,12 @@ div {
 	position: relative;
 	width: 95%;
 	text-align: left;
-	border: 25px solid paleturquoise;
+	border: 25px solid aquamarine;
+	background-color: aquamarine;
 	margin: 25px;
     box-sizing: border-box;
+}
+
+body {
+	background-color: white;
 }
