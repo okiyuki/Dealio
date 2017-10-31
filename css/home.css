@@ -1,0 +1,89 @@
+
+.navbar {
+	margin-left=0;
+	background-color: #333;
+	overflow: hidden;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+div {
+    display: -webkit-flex; 
+    -webkit-justify-content: space-around; 
+    display: flex;
+    justify-content: space-around;
+}
+
+.title {
+	margin-left=0;
+	background-color: #333;
+	overflow: hidden;
+	position: relative;
+	top: 0;
+	width: 100%;
+	height: 100px;
+}
+
+.title h1 {
+	text-align:center;
+	display: block;
+	color: paleturquoise;
+	padding: 14px 15px;
+	text-decoration: none;
+}
+
+#navbar{
+	height: 200px;
+}
+.navbar a {
+	float:left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 15px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.navbar a:hover {
+	color: paleturquoise;
+}
+
+.coupons {
+	float:left;
+	display: block;
+	color: #f2f2f2;
+	position: relative;
+	text-align: left;
+	padding: 14px 15px;
+	text-decoration: none;
+	font-size: 17px;
+	width: 95%;
+    border: 25px solid paleturquoise;
+	margin: 25px;
+    box-sizing: border-box;
+}
+
+.coupons p {
+	color: #333;
+}
+
+.deals p {
+	color: #333;
+}
+
+.deals {
+	float:left;
+	display: block;
+	color: #f2f2f2;
+	padding: 14px 15px;
+	text-decoration: none;
+	font-size: 17px;
+	position: relative;
+	width: 95%;
+	text-align: left;
+	border: 25px solid paleturquoise;
+	margin: 25px;
+    box-sizing: border-box;
+}
