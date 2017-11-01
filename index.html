@@ -6,25 +6,72 @@
 	<link data-require="bootstrap-css@3.3.6" data-semver="3.3.6" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" />
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/home.css" rel="stylesheet">
+
+	<script src="jquery-3.2.1.min.js"></script>
+	<script src="js/home.js"></script>
 </head>
 
 <body>
+
 	<!-- navigation -->
 		<div class="title">
 			<h1> HOME </h1>
 		</div>
 
+		<!-- home page tabs (no longer used )
+		<div class="button">
+			<button id="button_coupons">Expiring Coupons</button>
+			<button id="button_ads">Expiring Ads</button>
+		</div>
+	  -->
+
 		<br>
 		<br>
 		<div class="coupons">
-			<h3> <a href="coupon.html"> Expiring Coupons </a> </h3>
-			<p> No coupons found </p>
+			<h3>
+				<a href="coupon.html"> Expiring Coupons
+				<!--<img class="white-arrow" href="coupon.html" src="images/white arrow.png">-->
+			</a>
+			</h3>
 			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
+		<div class="container">
+		<!--
+			  <div class="page-header">
+			    <h1>Bootstrap 3 default carousel with swipe and touch gestures</h1>
+			    <p class="lead">How to add the swipes gesture to comand the Bootstrap 3 carousel on mobile devices.</p>
+			    <p>Made by <strong>Andrea Rufo</strong>, more info and tutorial on <a href="http://www.orangedropdesign.com/"> OrangeDropDesign.com</a></p>
+			  </div>
+			-->
+			  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+					<!-- INDICATORS
+			    <ol class="carousel-indicators">
+			      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			      <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+			      <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+			    </ol>
+				-->
+
+			    <!-- Wrapper(Images) for slides -->
+			    <div class="carousel-inner" role="listbox">
+			      <div class="item active">
+			        <img src="images/coupon expiring soon.jpg">
+			      </div>
+			    </div>
+
+			    <!-- Controls -->
+			    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+			      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			      <span class="sr-only">Previous</span>
+			    </a>
+			    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			      <span class="sr-only">Next</span>
+			    </a>
+			  </div>
+			</div>
 		</div>
 
 		<br>
@@ -34,13 +81,35 @@
 
 		<div class="deals">
 			<h3> <a href="stores.html"> Expiring Ads </a> </h3>
-			<p> No ads found </p>
 			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
+			<div class="container">
+			<!--
+				  <div class="page-header">
+				    <h1>Bootstrap 3 default carousel with swipe and touch gestures</h1>
+				    <p class="lead">How to add the swipes gesture to comand the Bootstrap 3 carousel on mobile devices.</p>
+				    <p>Made by <strong>Andrea Rufo</strong>, more info and tutorial on <a href="http://www.orangedropdesign.com/"> OrangeDropDesign.com</a></p>
+				  </div>
+				-->
+				  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+				    <!-- Wrapper(Images) for slides -->
+				    <div class="carousel-inner" role="listbox">
+				      <div class="item active">
+				        <img src="images/ad expiring soon.jpg">
+				      </div>
+				    </div>
+
+				    <!-- Controls -->
+				    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				      <span class="sr-only">Previous</span>
+				    </a>
+				    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				      <span class="sr-only">Next</span>
+				    </a>
+				  </div>
+				</div>
 		</div>
 
 		<div class="navbar">
@@ -50,6 +119,7 @@
 			<a href="settings.html"><span class="glyphicon glyphicon-cog"></span><br> Settings </a>
 		</div>
 	</div>
+
 
 </body>
 </html>

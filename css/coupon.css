@@ -4,12 +4,13 @@
 	overflow: hidden;
 	position: fixed;
 	bottom: 0;
+	margin-bottom: 0px;
 	width: 100%;
 }
 
 .title {
-	margin-left=0;
-	background-color: lightskyblue;
+	margin-left: 0;
+	background-color: #006080;
 	overflow: hidden;
 	position: relative;
 	top: 0;
@@ -18,12 +19,20 @@
 }
 
 .title h1 {
-	text-align:auto;
+	text-align:center;
+	width:100%;
 	display: block;
 	color: white;
 	padding: 14px 15px;
 	text-decoration: none;
 	font-size:70px;
+}
+
+.title img{
+	max-width: 100%;
+	max-height: 100%;
+	float: right;
+	vertical-align: middle;
 }
 
 #navbar{
@@ -36,7 +45,7 @@
 	text-align: center;
 	padding: 14px 15px;
 	text-decoration: none;
-	font-size: 17px;
+	font-size: 50px;
 }
 
 .navbar a:hover {
@@ -54,8 +63,8 @@
 	text-decoration: none;
 	font-size: 17px;
 	width: 95%;
-    border: 25px #c5e8d0;
-    background-color: #c5e8d0;
+    border: 25px #c9ddf1;
+    background-color: #c9ddf1;
 	margin: 25px;
     box-sizing: border-box;
 
@@ -63,6 +72,7 @@
 
 .coupon1 p {
 	color: #333;
+	font-size: 25px;
 }
 
 .coupon2 {
@@ -76,8 +86,8 @@
 	text-decoration: none;
 	font-size: 17px;
 	width: 95%;
-    border: 25px #c5e8d0;
-    background-color: #c5e8d0;
+	border: 25px #c9ddf1;
+	background-color: #c9ddf1;
 	margin: 25px;
     box-sizing: border-box;
 
@@ -85,6 +95,7 @@
 
 .coupon2 p {
 	color: #333;
+	font-size: 25px;
 }
 
 .coupon3 {
@@ -98,8 +109,8 @@
 	text-decoration: none;
 	font-size: 17px;
 	width: 95%;
-    border: 25px #c5e8d0;
-    background-color: #c5e8d0;
+	border: 25px #c9ddf1;
+	background-color: #c9ddf1;
     margin: 25px;
 	margin-bottom: 150px;
     box-sizing: border-box;
@@ -107,14 +118,15 @@
 
 .coupon3 p {
 	color: #333;
+	font-size: 25px;
 }
 
 div {
-    display: -webkit-flex; 
-    -webkit-justify-content: space-around; 
+    display: -webkit-flex;
+    -webkit-justify-content: space-around;
     display: flex;
     justify-content: space-around;
-    
+
 }
 
 body {
