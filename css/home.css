@@ -54,6 +54,7 @@ div {
 .coupons {
 	float:left;
 	display: block;
+	border-radius: 25px;
 	color: #f2f2f2;
 	position: relative;
 	text-align: left;
@@ -78,6 +79,7 @@ div {
 .deals {
 	float:left;
 	display: block;
+	border-radius: 25px;
 	color: #f2f2f2;
 	padding: 14px 15px;
 	text-decoration: none;
