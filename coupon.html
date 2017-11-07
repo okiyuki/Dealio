@@ -6,16 +6,22 @@
 		<link data-require="bootstrap-css@3.3.6" data-semver="3.3.6" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" />
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/coupon.css" rel="stylesheet">
+		<link href="css/addbutton.css" rel="stylesheet">
+		<link href="css/navbar.css" rel="stylesheet">
 	</head>
 
 	<body>
 		<div class="title">
 			<h1> COUPONS </h1>
+			<!--<div class="scan_container"> https://stackoverflow.com/questions/6461252/custom-upload-button 
+				<input type="file" accept="image/*" capture="camera">
+				<a href="addcoupon.html"></a> 
+			</div> -->
 		</div>
-		<input type="file" accept="image/*" capture="camera">
+
+		
 
 		<div class="coupon1">
-
 			<h2> APPLE COUPON </h2>
 			<p> Expires 11/5/17 </p>
 			<img src="http://aez3q3ajays12locv9uagjqxg.wpengine.netdna-cdn.com/wp-content/uploads/2012/10/earth-fare-printable-coupon-free-organic-apples.png" width=100% height=100%>
@@ -40,10 +46,13 @@
 		</div>
 
 		<div class="navbar">
-			<a href="index.html"> <span class="glyphicon glyphicon-home"> </span><br>Home </a>
-			<a href="coupon.html"><span class="glyphicon glyphicon-usd"></span><br> Coupons </a>
-			<a href="stores.html"> <span class="glyphicon glyphicon-tag"></span><br> Ads </a>
+			<a href="coupon.html"><span class="glyphicon glyphicon-tag"></span><br> Coupons </a>
+
+			<input type="file" id="fileInput" name="fileInput" style="visibility: hidden; width: 0px; height: 0px;" accept="image/*" capture="camera" multiple/>
+			<a href="" onclick="document.getElementById('fileInput').click(); return false"> <span class="glyphicon glyphicon-camera"></span><br> Scan! </a>
 			<a href="settings.html"><span class="glyphicon glyphicon-cog"></span><br> Settings </a>
 		</div>
 	</body>
+
 </html>
+
