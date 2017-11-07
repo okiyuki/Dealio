@@ -6,7 +6,6 @@
 		<link data-require="bootstrap-css@3.3.6" data-semver="3.3.6" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" />
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/coupon.css" rel="stylesheet">
-		<link href="css/addbutton.css" rel="stylesheet">
 		<link href="css/navbar.css" rel="stylesheet">
 	</head>
 
@@ -48,10 +47,13 @@
 		<div class="navbar">
 			<a href="coupon.html"><span class="glyphicon glyphicon-tag"></span><br> Coupons </a>
 
-			<input type="file" id="fileInput" name="fileInput" style="visibility: hidden; width: 0px; height: 0px;" accept="image/*" capture="camera" multiple/>
-			<a href="" onclick="document.getElementById('fileInput').click(); return false"> <span class="glyphicon glyphicon-camera"></span><br> Scan! </a>
+			<input type="file" id="fileInput" name="fileInput" style="visibility: hidden; width: 0px; height: 0px;" accept="image/*" capture="camera"/>
+			<a href="addcoupon.html" onclick="scanFile();"> <span class="glyphicon glyphicon-camera"></span><br> Scan! </a>
+			<!-- https://stackoverflow.com/questions/10216331/open-file-dialog-box-on-a-tag -->
 			<a href="settings.html"><span class="glyphicon glyphicon-cog"></span><br> Settings </a>
 		</div>
+
+		<script src="js/addcoupon.js"></script>
 	</body>
 
 </html>
