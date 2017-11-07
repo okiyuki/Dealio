@@ -56,7 +56,6 @@
 	float:left;
 	display: block;
 	border-radius: 25px;
-	color: #267ca0;
 	position: relative;
 	text-align: left;
 	padding: 10px 10px;
@@ -64,7 +63,7 @@
 	font-size: 17px;
 	width: 95%;
     border: 25px #c9ddf1;
-    background-color: #c9ddf1;
+    background-color: orange;
 	margin: 25px;
     box-sizing: border-box;
 
@@ -79,7 +78,7 @@
 	float:left;
 	display: block;
 	border-radius: 25px;
-	color: #267ca0;
+	color: orange;
 	position: relative;
 	text-align: left;
 	padding: 10px 10px;

@@ -1,0 +1,25 @@
+form{
+	font-size:40px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    border-bottom: 3px solid orange;
+}
+
+input[type=date] {
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    border-bottom: 3px solid orange;
+}
+
+input[type=text]:focus {
+    border: 5px solid orange;
+}
+
+input[type=date]:focus{
+	border: 5px solid orange;
+}

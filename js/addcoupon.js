@@ -7,3 +7,7 @@ function scanFile(event) {
 	file = resImage.files[0];
 	window.location.replace("../addcoupon.html");
 }
+
+function goBack(event){
+	window.location.replace("../coupon.html");
+}
