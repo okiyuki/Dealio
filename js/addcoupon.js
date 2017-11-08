@@ -10,7 +10,6 @@ var index = 1;
 
 var couponList = [
   {'title': 'Apples', 'expdate': '2012-10-14', 'tags': ['My Favorites', 'Groceries']},
-  {'title': 'Fuji', 'expdate': '2018-11-16', 'tags': ['My Favorites']},
 ]
 
 
