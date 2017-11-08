@@ -45,7 +45,7 @@ function save_data(){
     	arr.push(form1.elements[i].value);
     }
   }
-  
+
   list.push({'title': form1.elements[0].value, 'expdate': form1.elements[1].value, 'tags': arr});
   localStorage.setItem('customCoupons', JSON.stringify(list));
 

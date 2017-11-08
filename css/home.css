@@ -10,7 +10,7 @@ div {
 
 .title {
 	margin-left: 0;
-	background-color: #006080;
+	background-color: #20C17E;
 	overflow: hidden;
 	position: relative;
 	top: 0;
@@ -30,29 +30,17 @@ div {
 
 /* coupon & ads heading*/
 h3{
-	margin-left: 0px;
-	background-color: #006080;
-	border-radius: 25px;
-	border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 0px;
-	overflow: hidden;
-	position: relative;
-	top: 0px;
-	width: 100%;
+  color:black;
 	text-align:center;
 	padding-top: 10px;
   padding-bottom: 10px;
 }
-.coupons a{
-	font-size: 50px;
-	color: white;
-}
+
 .coupons {
-	float:left;
 	display: block;
 	color: #c9ddf1;
 	position: relative;
-	text-align: left;
+	text-align: center;
 	padding-top: 0px;
   padding-right: 0px;
   padding-bottom: 30px;
@@ -60,43 +48,14 @@ h3{
 	text-decoration: none;
 	font-size: 17px;
 	width: 95%;
-    background-color: #c4dcf7;
+    background-color: #D7EAE2;
 	margin: 25px;
     box-sizing: border-box;
 			border-radius: 25px;
 }
 
-.coupons p {
-	color: #333;
-}
 
-.deals p {
-	color: #333;
-}
 
-.deals {
-	float:left;
-	display: block;
-	color: #c9ddf1;
-	position: relative;
-	text-align: left;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 30px;
-	padding-left: 0px;
-	text-decoration: none;
-	font-size: 17px;
-	width: 95%;
-		background-color: #c4dcf7;
-	margin: 25px;
-		box-sizing: border-box;
-			border-radius: 25px;
-}
-
-.deals a{
-	font-size: 50px;
-	color: white;
-}
 
 /* NO LONGER BEING USED
 button:focus {outline:0;}
@@ -129,5 +88,5 @@ button:focus {outline:0;}
 */
 
 body {
-	background-color: white;
+	background-color: #F9F9F9;
 }
