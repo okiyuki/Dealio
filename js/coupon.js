@@ -26,7 +26,6 @@ $(document).ready(function() {
     var curHtml = template(curData);
     parentDiv.append(curHtml);
   }
-
 })
 
 // Search bar
