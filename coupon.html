@@ -3,6 +3,7 @@
 	<head>
 		<title> Coupon Page </title>
 
+
 		<link data-require="bootstrap-css@3.3.6" data-semver="3.3.6" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" />
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/coupon.css" rel="stylesheet">
@@ -14,31 +15,21 @@
 			<h1> COUPONS </h1>
 		</div>
 
-		
+		<!-- Dynamically generate -->
+		<script id="entry-template" type="text/x-handlebars-template">
+			<div class="couponList" id="couponList{{index}}">
+				<a href="#" class="coupon">
+					<p>Product: {{title}}</p>
+					<p>Expiration Date: {{expdate}}</p>
+					<img src="http://aez3q3ajays12locv9uagjqxg.wpengine.netdna-cdn.com/wp-content/uploads/2012/10/earth-fare-printable-coupon-free-organic-apples.png" width=100% height=100%>
+				</a>
+			</div>
+		</script>
 
-		<div class="coupon1">
-			<h2> APPLE COUPON </h2>
-			<p> Expires 11/5/17 </p>
-			<img src="http://aez3q3ajays12locv9uagjqxg.wpengine.netdna-cdn.com/wp-content/uploads/2012/10/earth-fare-printable-coupon-free-organic-apples.png" width=100% height=100%>
-			<br>
-			<br>
-		</div>
+    	<div id="couponBook">
+      		<!-- we will inject templated project HTML code into here -->
+    	</div>
 
-		<div class="coupon2">
-			<h2> SHAMPOO COUPON </h2>
-			<p> Expires 11/14/17 </p>
-			<img src="http://4.bp.blogspot.com/-kWnz8Wgpbeo/T9yuxz9YZ6I/AAAAAAAAAp8/EkICGGwEPWM/s1600/Pantene-Shampoo-Coupon1.jpg" width=100% height=100%>
-			<br>
-			<br>
-		</div>
-
-		<div class="coupon3">
-			<h2> DETERGENT COUPON </h2>
-			<p> Expires 11/21/17 </p>
-			<img src="http://lookbeforespending.com/wp-content/uploads/2014/03/tide-coupons.png" width=100% height=100%>
-			<br>
-			<br>
-		</div>
 
 		<div class="navbar">
 			<a href="coupon.html"><span class="glyphicon glyphicon-tag"></span><br> Coupons </a>
@@ -48,8 +39,14 @@
 			<!-- https://stackoverflow.com/questions/10216331/open-file-dialog-box-on-a-tag -->
 			<a href="settings.html"><span class="glyphicon glyphicon-cog"></span><br> Settings </a>
 		</div>
+		
 
+		<script src="https://code.jquery.com/jquery.js"></script>
+		<script src="js/bootstrap.bundle.js"></script>
 		<script src="js/addcoupon.js"></script>
+		<script src="js/coupon.js"></script>
+		<script src="js/handlebars-v4.0.11.js"></script>
+
 	</body>
 
 </html>

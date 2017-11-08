@@ -52,7 +52,7 @@
 	color: paleturquoise;
 }
 
-.coupon1 {
+.coupon {
 	float:left;
 	display: block;
 	border-radius: 25px;
@@ -60,64 +60,22 @@
 	text-align: left;
 	padding: 10px 10px;
 	text-decoration: none;
-	font-size: 17px;
+	font-size: 25px;
 	width: 95%;
     border: 25px #c9ddf1;
     background-color: orange;
 	margin: 25px;
     box-sizing: border-box;
-
 }
 
-.coupon1 p {
-	color: #333;
-	font-size: 25px;
-}
-
-.coupon2 {
-	float:left;
-	display: block;
-	border-radius: 25px;
-	color: orange;
+.coupon a {
+	text-align:center;
 	position: relative;
-	text-align: left;
-	padding: 10px 10px;
-	text-decoration: none;
-	font-size: 17px;
-	width: 95%;
-	border: 25px #c9ddf1;
-	background-color: #c9ddf1;
-	margin: 25px;
-    box-sizing: border-box;
-
 }
 
-.coupon2 p {
-	color: #333;
-	font-size: 25px;
-}
-
-.coupon3 {
-	float:left;
-	display: block;
-	border-radius: 25px;
-	color: #267ca0;
-	position: relative;
-	text-align: left;
-	padding: 10px 10px;
-	text-decoration: none;
-	font-size: 17px;
-	width: 95%;
-	border: 25px #c9ddf1;
-	background-color: #c9ddf1;
-    margin: 25px;
-	margin-bottom: 150px;
-    box-sizing: border-box;
-}
-
-.coupon3 p {
-	color: #333;
-	font-size: 25px;
+#cancel {
+	width:25%;
+	background-color:gray;
 }
 
 div {
