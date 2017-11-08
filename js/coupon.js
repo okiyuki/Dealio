@@ -9,8 +9,14 @@ $(document).ready(function() {
 
   var parentDiv = $("#couponBook");
 
+  var html = null;
   // start with a simple template
-  var html = template(couponList[0]);
+  if (localStorage.getItem('customCoupons') != null){
+    html = template((JSON.parse(localStorage.getItem('customCoupons')))[0]);
+  } else {
+    html = template(couponList[0]);
+  }
+  
   console.log(html);
   parentDiv.append(html);
 

@@ -28,7 +28,7 @@ function goBack(event){
 function save_data(){
 	var list= null;
   if (localStorage.getItem('customCoupons') != null){
-    list = JSON.stringify(localStorage.getItem('customCoupons'));
+    list = JSON.parse(localStorage.getItem('customCoupons'));
   } else {
   	list = couponList;
   }
@@ -45,10 +45,8 @@ function save_data(){
     	arr.push(form1.elements[i].value);
     }
   }
-  console.log(arr);
-
+  
   list.push({'title': form1.elements[0].value, 'expdate': form1.elements[1].value, 'tags': arr});
-  console.log(couponList);
   localStorage.setItem('customCoupons', JSON.stringify(list));
 
 }
